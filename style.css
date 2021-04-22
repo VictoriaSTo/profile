@@ -1,0 +1,90 @@
+body {
+    color: #8E5572;
+    background-color: #F2F7F2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #443850;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+a {
+    color: #BCAA99;
+    text-decoration: wavy;
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: #BBBE64;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: #443850;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.list-inline {
+    padding: 0px;
+}
+.list-inline li{
+    list-style: none;
+    padding: 15px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+@media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+@media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+@media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+
+
